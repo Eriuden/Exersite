@@ -47,6 +47,10 @@ const questionSchema = new Schema(
       minlength: 6,
       maxlength: 1024,
     },
+    
+    comments: {
+      required: true
+    }
   },
   {
     timestamps: true,
