@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import mongoose from "mongoose";
-import { User } from "../models/userModel";
+import { User } from "../Models/user.model";
 
 const ObjectId = mongoose.Types.ObjectId;
 

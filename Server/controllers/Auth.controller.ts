@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import jwt from "jsonwebtoken";
-import { User } from "../models/userModel";
-import { signInErrors, signUpErrors } from "../utils/errors.utils";
+import { User } from "../Models/user.model";
+import { signInErrors, signUpErrors } from "../utils/error.utils"
 
 const maxAge = 3 * 24 * 60 * 60;
 
