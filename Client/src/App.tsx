@@ -5,9 +5,8 @@ import { Routes, Route } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { Home } from './pages/Home'
 import { getUser } from './redux/actions/user.actions'
-import { UserProfile } from './pages/UserProfile'
 import { ResetPassword } from './pages/ResetPassword'
-import UpdatePassword from './pages/UpdatePassword'
+import { UpdatePassword } from './pages/UpdatePassword'
 import './App.css'
 
 function App() {
@@ -40,10 +39,8 @@ function App() {
     <>
       <div>
         <Header/>
-        <Searcher/>
         <Routes>
           <Route path={"/"} element={<Home/>}/>
-          <Route path={"/user-profile/:id"} element={<UserProfile/>}/>
           <Route path={"/reset-password"} element={<ResetPassword/>}/>
           <Route path={"/update-password"} element={<UpdatePassword/>}/>
         </Routes>
