@@ -1,7 +1,7 @@
 import { useState, useContext, useEffect } from "react";
 import {useSelector} from "react-redux"
 import {Link} from "react-router-dom"
-import {UidContext} from "./AppContext"
+import { UidContext } from "./AppContext";
 import { Squash as Hamburger } from "hamburger-react";
 import {Logout} from "./Logout"
 import { Connexion } from "./Connexion";
